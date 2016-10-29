@@ -29,12 +29,12 @@ function App({ children, routes }) {
     );
   }
 
-  const repoLink = 'https://github.com/rafrex/spa-github-pages';
+  const repoLink = 'https://ellerbrock.github.io/github-page-spa-test1';
 
   return (
     <div>
       <h1>Single Page Apps for GitHub Pages</h1>
-      <a href={repoLink}>https://github.com/rafrex/spa-github-pages</a>
+      <a href={repoLink}>https://ellerbrock.github.io/github-page-spa-test1</a>
       <nav>
         {generateMapMenu()}
       </nav>
