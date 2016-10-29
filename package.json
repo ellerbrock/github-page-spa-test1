@@ -4,7 +4,7 @@
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
     "start": "webpack -d --watch & live-server --entry-file=404.html",
-    "commit": "webpack -p && git add --all && git status && git commit -m 'auto commit' && git push"
+    "commit": "webpack && git add --all && git status && git commit -m 'auto commit' && git push"
   },
   "repository": {
     "type": "git",
