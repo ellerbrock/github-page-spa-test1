@@ -1,15 +1,16 @@
 {
-  "name": "spa-github-pages",
-  "version": "2.0.0",
+  "name": "github-page-spa-test1",
+  "version": "0.0.1",
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
-    "start": "webpack -d --watch & live-server --entry-file=404.html"
+    "start": "webpack -d --watch & live-server --entry-file=404.html",
+    "commit": "webpack -p && git add --all && git status && git commit -m 'auto commit' && git push"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "url": "git+https://github.com/ellerbrock/github-page-spa-test1.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Maik Ellerbrock",
   "license": "MIT",
   "dependencies": {
     "current-input": "^1.1.0",

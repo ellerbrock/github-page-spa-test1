@@ -33,7 +33,7 @@ function App({ children, routes }) {
 
   return (
     <div>
-      <h1>Single Page Apps for GitHub Pages</h1>
+      <h1>Single Page Apps for GitHub Pages Test</h1>
       <a href={repoLink}>https://ellerbrock.github.io/github-page-spa-test1</a>
       <nav>
         {generateMapMenu()}
