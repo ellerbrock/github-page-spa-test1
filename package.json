@@ -15,7 +15,7 @@
   "dependencies": {
     "current-input": "^1.1.0",
     "react": "^15.1.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.3.2",
     "react-router": "^4.0.0"
   },
   "devDependencies": {
