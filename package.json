@@ -31,6 +31,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-react": "^7.0.1",
     "live-server": "^1.0.0",
-    "webpack": "^4.0.0"
+    "webpack": "^4.43.0"
   }
 }
